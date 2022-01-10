@@ -1,0 +1,20 @@
+{
+  "name": "m2digital",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15",
+    "sequelize": "^6.12.5",
+    "sequelize-cli": "^6.3.0",
+    "sqlite3": "^5.0.2"
+  }
+}
